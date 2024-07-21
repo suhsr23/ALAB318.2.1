@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>Home</h1>
+  <nav>
+    <a href="/">Home</a> | 
+    <a href="/about">About</a> | 
+    <a href="/user/John">User</a>
+  </nav>
+  <form action="/submit" method="POST">
+    <input type="text" name="data" placeholder="Enter some data">
+    <button type="submit">Submit</button>
+  </form>
+  <button onclick="window.location.href='/download'">Download Image</button>
+</body>
+</html>
